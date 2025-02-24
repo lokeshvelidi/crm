@@ -8,7 +8,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'admin') {
 $host = "localhost";
 $dbname = "call_management";
 $username = "root";
-$password = "";
+$password = "lokesh";
 
 $conn = new mysqli($host, $username, $password, $dbname);
 if ($conn->connect_error) {
